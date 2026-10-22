@@ -1,0 +1,3 @@
+grouping,chi2,df,p_value,n
+PAM50 subtype,94.4081,5,7.95413e-19,1896
+NPI group,219.277,2,2.42466e-48,1902

@@ -1,0 +1,44 @@
+feature,label,group,coef,hazard_ratio_per_sd,selection_frequency
+clin_num__nottingham_prognostic_index,Nottingham Prognostic Index,Clinical,0.196276,1.21686,1
+clin_num__lymph_nodes_examined_positive,Positive lymph nodes,Clinical,0.164634,1.17896,1
+expr__stat5a,STAT5A expression,Gene expression,-0.0985921,0.906112,1
+expr__aurka,AURKA expression,Gene expression,0.0910042,1.09527,1
+subtype_cat__pam50_+_claudin-low_subtype_LumA,PAM50 = LumA,Molecular subtypes,-0.0817614,0.921492,1
+clin_num__tumor_size,Tumor size,Clinical,0.0743692,1.0772,1
+subtype_cat__integrative_cluster_5,IntClust = 5,Molecular subtypes,0.0714415,1.07406,1
+clin_num__tumor_stage,Tumor stage,Clinical,0.0677339,1.07008,1
+clin_cat__primary_tumor_laterality_missing,Laterality = missing,Clinical,0.0633328,1.06538,0.8
+mut__gata3_mut,GATA3 mutation,Mutations,-0.0463253,0.954731,0.92
+clin_cat__type_of_breast_surgery_BREAST CONSERVING,Surgery = Breast conserving,Clinical,-0.0459194,0.955119,0.8
+expr__cul1,CUL1 expression,Gene expression,-0.0384067,0.962322,0.6
+expr__gsk3b,GSK3B expression,Gene expression,0.0331845,1.03374,0.88
+subtype_cat__integrative_cluster_3,IntClust = 3,Molecular subtypes,-0.0277312,0.97265,0.6
+expr__notch3,NOTCH3 expression,Gene expression,0.0258971,1.02624,0.64
+expr__fn1,FN1 expression,Gene expression,0.0250572,1.02537,0.48
+mut__tp53_mut,TP53 mutation,Mutations,0.0239992,1.02429,0.76
+expr__dll3,DLL3 expression,Gene expression,0.0228721,1.02314,0.24
+expr__flt3,FLT3 expression,Gene expression,-0.0209757,0.979243,0.6
+expr__sik1,SIK1 expression,Gene expression,-0.020908,0.979309,0.24
+expr__smad7,SMAD7 expression,Gene expression,0.0187098,1.01889,0.2
+expr__smad6,SMAD6 expression,Gene expression,0.0172177,1.01737,0.6
+expr__bmf,BMF expression,Gene expression,0.0166988,1.01684,0.28
+expr__mmp25,MMP25 expression,Gene expression,-0.0144558,0.985648,0.36
+expr__smarcd1,SMARCD1 expression,Gene expression,0.0139431,1.01404,0.32
+expr__diras3,DIRAS3 expression,Gene expression,-0.0137911,0.986304,0.28
+expr__pms2,PMS2 expression,Gene expression,-0.0137357,0.986358,0.48
+mut__ncor2_mut,NCOR2 mutation,Mutations,-0.0128961,0.987187,0.32
+expr__nr2f1,NR2F1 expression,Gene expression,0.011892,1.01196,0.28
+expr__mapt,MAPT expression,Gene expression,-0.0104139,0.98964,0.36
+expr__heyl,HEYL expression,Gene expression,0.00981734,1.00987,0.08
+expr__map3k4,MAP3K4 expression,Gene expression,0.00848966,1.00853,0.32
+expr__acvr1b,ACVR1B expression,Gene expression,0.00765306,1.00768,0.24
+mut__pik3ca_mut,PIK3CA mutation,Mutations,0.0072612,1.00729,0.12
+expr__bmp3,BMP3 expression,Gene expression,0.0071185,1.00714,0.12
+expr__dlec1,DLEC1 expression,Gene expression,-0.0064557,0.993565,0.24
+expr__maml1,MAML1 expression,Gene expression,0.00611238,1.00613,0.24
+expr__mmp17,MMP17 expression,Gene expression,0.00593364,1.00595,0.08
+expr__pdgfb,PDGFB expression,Gene expression,0.00538133,1.0054,0.44
+expr__vegfa,VEGFA expression,Gene expression,0.00480651,1.00482,0.36
+expr__pdgfrb,PDGFRB expression,Gene expression,0.00436243,1.00437,0.12
+expr__tbx3,TBX3 expression,Gene expression,-0.00329923,0.996706,0.2
+mut__thsd7a_mut,THSD7A mutation,Mutations,0.000750949,1.00075,0.12

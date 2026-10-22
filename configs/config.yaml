@@ -1,0 +1,187 @@
+# Single source of truth for the METABRIC survival pipeline.
+# Every stage reads this file; nothing below is hard-coded in src/.
+
+seed: 42
+n_jobs: -1            # cores for RSF / XGBoost / joblib (-1 = all)
+
+paths:
+  data: data/METABRIC_RNA_Mutation.csv
+  results: results
+  figures: figures
+
+columns:
+  id: patient_id
+  time: overall_survival_months      # follow-up in months
+  status: death_from_cancer          # Living / Died of Disease / Died of Other Causes
+  # Outcome columns. They are never allowed into a feature set (checked by tests).
+  outcomes: [overall_survival, overall_survival_months, death_from_cancer]
+  # Raw columns deliberately left out of every model, with the reason.
+  excluded:
+    patient_id: identifier
+    cohort: study batch (recruitment cohort), not a patient characteristic
+    cancer_type: near-constant (1903 carcinomas vs 1 sarcoma)
+    oncotree_code: same information as cancer_type_detailed, coded differently
+  clinical_numeric:
+    - age_at_diagnosis
+    - tumor_size
+    - tumor_stage
+    - neoplasm_histologic_grade
+    - lymph_nodes_examined_positive
+    - nottingham_prognostic_index
+    - chemotherapy
+    - hormone_therapy
+    - radio_therapy
+  clinical_categorical:
+    - type_of_breast_surgery
+    - cancer_type_detailed
+    - cellularity
+    - er_status_measured_by_ihc
+    - er_status
+    - pr_status
+    - her2_status
+    - tumor_other_histologic_subtype
+    - inferred_menopausal_state
+    - primary_tumor_laterality
+  # Expression- or copy-number-derived subtypes: molecular, but routinely available.
+  molecular_subtypes:
+    - pam50_+_claudin-low_subtype
+    - integrative_cluster
+    - 3-gene_classifier_subtype
+    - her2_status_measured_by_snp6
+  # Gene-level columns start after the 31 clinical columns: mRNA z-scores and *_mut flags.
+  first_gene_column: 31
+  mutation_suffix: _mut
+  mutation_numeric: [mutation_count]
+  # Labels used in figures and tables.
+  display_names:
+    age_at_diagnosis: Age at diagnosis
+    tumor_size: Tumor size
+    tumor_stage: Tumor stage
+    neoplasm_histologic_grade: Histologic grade
+    lymph_nodes_examined_positive: Positive lymph nodes
+    nottingham_prognostic_index: Nottingham Prognostic Index
+    chemotherapy: Chemotherapy
+    hormone_therapy: Hormone therapy
+    radio_therapy: Radiotherapy
+    type_of_breast_surgery: Surgery
+    cancer_type_detailed: Histology
+    cellularity: Cellularity
+    er_status_measured_by_ihc: ER (IHC)
+    er_status: ER status
+    pr_status: PR status
+    her2_status: HER2 status
+    tumor_other_histologic_subtype: Histologic subtype
+    inferred_menopausal_state: Menopausal state
+    primary_tumor_laterality: Laterality
+    pam50_+_claudin-low_subtype: PAM50
+    integrative_cluster: IntClust
+    3-gene_classifier_subtype: 3-gene classifier
+    her2_status_measured_by_snp6: HER2 copy number (SNP6)
+    mutation_count: Mutation count
+
+# Endpoints. "event" lists the status values counted as the event; everything else is censored
+# at its last follow-up. dss and other_cause are cause-specific hazards of the two competing causes.
+endpoints:
+  dss:
+    label: Disease-specific survival
+    event: [Died of Disease]
+  os:
+    label: Overall survival
+    event: [Died of Disease, Died of Other Causes]
+  other_cause:
+    label: Death from other causes
+    event: [Died of Other Causes]
+
+# Feature sets are unions of feature groups (see preprocessing.py).
+feature_sets:
+  clinical:
+    label: Clinical
+    groups: [clinical]
+  clinical_subtypes:
+    label: Clinical + molecular subtypes
+    groups: [clinical, subtypes]
+  clinical_genomic:
+    label: Clinical + subtypes + genes
+    groups: [clinical, subtypes, expression, mutations]
+  genomic:
+    label: Genes only
+    groups: [expression, mutations]
+
+preprocessing:
+  min_mutation_prevalence: 0.01   # drop mutation flags carried by <1% of the training fold
+  min_category_frequency: 10      # rarer categories are pooled into an "infrequent" level
+
+cv:
+  n_splits: 5
+  n_repeats: 5        # 5 x 5 = 25 paired outer folds
+  inner_splits: 3     # penalty selection inside every outer training fold
+
+td_auc_months: [60, 120, 180]     # time-dependent AUC at 5, 10 and 15 years
+
+models:
+  coxnet:
+    l1_ratio: 0.5
+    n_alphas: 25
+    alpha_min_ratio: 0.02
+    max_iter: 20000
+  rsf:
+    n_estimators: 300
+    min_samples_leaf: 15
+    max_features: sqrt
+  xgb_cox:
+    learning_rate: 0.03
+    max_depth: 3
+    subsample: 0.8
+    colsample_bytree: 0.5
+    min_child_weight: 5
+    reg_lambda: 1.0
+    max_rounds: 2000
+    early_stopping_rounds: 50
+    validation_fraction: 0.2
+
+# Model-family comparison (slower: RSF). Same outer folds as the first repeat above.
+model_comparison:
+  endpoint: dss
+  feature_sets: [clinical, clinical_genomic]
+  models: [coxnet, rsf, xgb_cox]
+  n_repeats: 1
+
+# Paired tests: (better-informed set, reference set)
+paired_comparisons:
+  - [clinical_genomic, clinical]
+  - [clinical_genomic, clinical_subtypes]
+  - [clinical_subtypes, clinical]
+
+explain:
+  endpoint: dss
+  feature_set: clinical_genomic
+  top_n: 15
+
+audit:
+  n_splits: 5
+  n_repeats: 3
+  logistic_C: 0.0464    # the value the original notebook's grid search selected
+  max_iter: 5000
+
+descriptive:
+  endpoint: dss
+  pam50_column: pam50_+_claudin-low_subtype
+  pam50_order: [LumA, LumB, Her2, Basal, claudin-low, Normal]   # NC (unclassified) is shown in the table only
+  npi_cutoffs: [3.4, 5.4]                                      # good / moderate / poor prognostic groups
+  age_bins: [0, 50, 70, 200]
+  age_labels: ["<50", "50-69", "70+"]
+  max_months: 240                         # curves are cut at 20 years; few patients remain beyond
+  at_risk_months: [0, 60, 120, 180, 240]
+  cif_months: [60, 120, 240]
+
+figures:
+  dpi: 300
+  # Takeaway titles, written after checking the results they describe. Remove a line to fall back
+  # to a neutral, descriptive title (e.g. after changing the data or the configuration).
+  titles:
+    leakage_audit: Most of the original accuracy came from two leaked outcome columns
+    competing_risks: From age 70, most deaths are not from breast cancer
+    cindex_grid: Subtypes improve prediction of cancer death; individual genes add little more
+    paired_deltas: Only the molecular subtypes give a clear gain, and only for cancer death
+    model_comparison: Nonlinear models perform on par with the linear Cox model
+    shap_groups: Genes get most of the SHAP attribution, yet add little predictive value

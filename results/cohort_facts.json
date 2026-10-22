@@ -1,0 +1,24 @@
+{
+  "max_followup_months": 355.2,
+  "living_followup_months": {
+    "min": 0.7666666670000001,
+    "median": 158.0333333,
+    "max": 337.03333330000004
+  },
+  "living_followed_under_60_months": 59,
+  "median_age_at_diagnosis_by_status": {
+    "Died of Disease": 61.1,
+    "Died of Other Causes": 70.5,
+    "Living": 56.7
+  },
+  "laterality_missing": {
+    "n": 105,
+    "by_cohort": {
+      "1": 17,
+      "2": 7,
+      "4": 81
+    },
+    "breast_cancer_death_rate_if_missing": 0.44761904761904764,
+    "breast_cancer_death_rate_if_recorded": 0.3199777406789093
+  }
+}

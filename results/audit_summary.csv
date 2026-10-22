@@ -1,0 +1,5 @@
+variant,description,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,recall_Living_mean,recall_Living_std,recall_Died of Disease_mean,recall_Died of Disease_std,recall_Died of Other Causes_mean,recall_Died of Other Causes_std
+original_features,As in the original notebook (includes overall_survival and overall_survival_months),0.782163,0.0188105,0.746834,0.0210955,0.984167,0.0110464,0.68591,0.0405945,0.570139,0.0520039
+without_overall_survival,overall_survival removed,0.545575,0.0145859,0.525383,0.0153324,0.645833,0.0300359,0.522469,0.0369904,0.408333,0.0401896
+without_survival_columns,overall_survival and overall_survival_months removed (leak-free),0.491411,0.0233066,0.475941,0.0236052,0.588333,0.0290153,0.430783,0.0501276,0.408333,0.0396068
+majority_baseline,Always predicts the most frequent class,0.420611,0.000560401,0.197385,0.000185151,1,0,0,0,0,0

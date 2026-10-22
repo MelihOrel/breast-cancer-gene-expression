@@ -1,0 +1,4 @@
+endpoint,spearman_rho_with_age,p_value,cindex_genes_only_oof,cindex_age_alone
+dss,-0.101174,9.83099e-06,0.660175,0.49522
+os,0.170129,8.06407e-14,0.602751,0.589184
+other_cause,0.448305,1.09987e-94,0.626631,0.764961

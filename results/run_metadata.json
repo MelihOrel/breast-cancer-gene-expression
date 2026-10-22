@@ -1,0 +1,49 @@
+{
+  "patients_raw": 1904,
+  "patients_analysed": 1902,
+  "removed": {
+    "missing outcome": 1,
+    "zero follow-up": 1
+  },
+  "n_features": {
+    "clinical_numeric": 9,
+    "clinical_categorical": 10,
+    "molecular_subtypes": 4,
+    "expression": 489,
+    "mutations": 173
+  },
+  "events": {
+    "dss": 622,
+    "os": 1102,
+    "other_cause": 480
+  },
+  "seed": 42,
+  "quick": false,
+  "cv": {
+    "n_splits": 5,
+    "n_repeats": 5,
+    "inner_splits": 3
+  },
+  "n_outer_folds": 25,
+  "python": "3.13.16",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "scikit-survival": "0.28.0",
+    "xgboost": "3.4.1",
+    "shap": "0.54.1",
+    "matplotlib": "3.11.2",
+    "scipy": "1.18.1"
+  },
+  "stage_seconds": {
+    "audit": 54.0,
+    "descriptive": 1.0,
+    "cv": 259.5,
+    "compare": 426.4,
+    "explain": 5.4
+  },
+  "xgb_cox_rounds_full_data": 128,
+  "coxnet_alpha_full_data": 0.05745560712349627,
+  "coxnet_nonzero_full_data": 43
+}

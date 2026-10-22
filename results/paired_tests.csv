@@ -1,0 +1,10 @@
+endpoint,better,reference,mean_delta,ci_low,ci_high,t,p_value,folds_better,n_folds
+dss,clinical_genomic,clinical,0.0233495,0.0105127,0.0361863,3.75412,0.000978379,25,25
+dss,clinical_genomic,clinical_subtypes,0.00843103,-0.0010677,0.0179298,1.83191,0.0794051,22,25
+dss,clinical_subtypes,clinical,0.0149184,0.0074145,0.0224224,4.1032,0.000405827,25,25
+os,clinical_genomic,clinical,0.00681038,-0.000467638,0.0140884,1.93129,0.0653406,21,25
+os,clinical_genomic,clinical_subtypes,0.00516404,-0.00138487,0.0117129,1.62746,0.116699,21,25
+os,clinical_subtypes,clinical,0.00164634,-0.00306489,0.00635758,0.72123,0.477736,17,25
+other_cause,clinical_genomic,clinical,-0.000566169,-0.00499594,0.0038636,-0.263787,0.794196,11,25
+other_cause,clinical_genomic,clinical_subtypes,-0.000780487,-0.00380371,0.00224274,-0.532823,0.599055,9,25
+other_cause,clinical_subtypes,clinical,0.000214318,-0.00282645,0.00325509,0.145467,0.885557,8,25

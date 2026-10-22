@@ -1,0 +1,683 @@
+feature,label,group,mean_abs_shap
+clin_num__lymph_nodes_examined_positive,Positive lymph nodes,Clinical,0.186742
+clin_num__nottingham_prognostic_index,Nottingham Prognostic Index,Clinical,0.16912
+expr__aurka,AURKA expression,Gene expression,0.105515
+expr__stat5a,STAT5A expression,Gene expression,0.0977559
+clin_num__tumor_size,Tumor size,Clinical,0.0924034
+expr__ugt2b17,UGT2B17 expression,Gene expression,0.0336474
+expr__stat5b,STAT5B expression,Gene expression,0.0287419
+expr__diras3,DIRAS3 expression,Gene expression,0.0258388
+expr__nr2f1,NR2F1 expression,Gene expression,0.0258354
+expr__col22a1,COL22A1 expression,Gene expression,0.0242737
+expr__cul1,CUL1 expression,Gene expression,0.0237557
+subtype_cat__pam50_+_claudin-low_subtype_LumA,PAM50 = LumA,Molecular subtypes,0.022464
+expr__acvr1b,ACVR1B expression,Gene expression,0.0200188
+expr__mmp1,MMP1 expression,Gene expression,0.0199382
+expr__smad6,SMAD6 expression,Gene expression,0.0197247
+expr__apaf1,APAF1 expression,Gene expression,0.0196056
+subtype_cat__integrative_cluster_5,IntClust = 5,Molecular subtypes,0.0195235
+expr__mapt,MAPT expression,Gene expression,0.0177154
+expr__bcl2,BCL2 expression,Gene expression,0.0171308
+expr__fn1,FN1 expression,Gene expression,0.0165179
+expr__mmp11,MMP11 expression,Gene expression,0.0162888
+expr__tubb4a,TUBB4A expression,Gene expression,0.014861
+expr__flt3,FLT3 expression,Gene expression,0.0143613
+expr__igf1r,IGF1R expression,Gene expression,0.0140672
+expr__gps2,GPS2 expression,Gene expression,0.0136571
+expr__cxcl8,CXCL8 expression,Gene expression,0.0135966
+expr__prps2,PRPS2 expression,Gene expression,0.0132698
+expr__ccne1,CCNE1 expression,Gene expression,0.0130124
+expr__e2f2,E2F2 expression,Gene expression,0.0130003
+expr__bard1,BARD1 expression,Gene expression,0.0126349
+expr__tp53,TP53 expression,Gene expression,0.0122629
+expr__cdk1,CDK1 expression,Gene expression,0.0122091
+expr__hsd17b7,HSD17B7 expression,Gene expression,0.0119478
+expr__mmp15,MMP15 expression,Gene expression,0.0116481
+expr__ccnd2,CCND2 expression,Gene expression,0.0114705
+expr__mlh1,MLH1 expression,Gene expression,0.0111212
+expr__dlec1,DLEC1 expression,Gene expression,0.0110308
+expr__rad51,RAD51 expression,Gene expression,0.0108341
+expr__map2k4,MAP2K4 expression,Gene expression,0.0105242
+expr__cir1,CIR1 expression,Gene expression,0.0104099
+expr__smarcd1,SMARCD1 expression,Gene expression,0.0103941
+expr__akt1,AKT1 expression,Gene expression,0.0103462
+expr__ncor1,NCOR1 expression,Gene expression,0.0100592
+expr__dph1,DPH1 expression,Gene expression,0.0100321
+expr__hsd3b7,HSD3B7 expression,Gene expression,0.00976246
+expr__aph1b,APH1B expression,Gene expression,0.00970726
+clin_num__age_at_diagnosis,Age at diagnosis,Clinical,0.00963509
+expr__e2f3,E2F3 expression,Gene expression,0.0095972
+expr__mmp9,MMP9 expression,Gene expression,0.00943922
+expr__cyp17a1,CYP17A1 expression,Gene expression,0.00943138
+expr__ncoa3,NCOA3 expression,Gene expression,0.00927674
+expr__hsd17b8,HSD17B8 expression,Gene expression,0.00916102
+expr__slc29a1,SLC29A1 expression,Gene expression,0.00913438
+expr__ptk2,PTK2 expression,Gene expression,0.00904919
+expr__gsk3b,GSK3B expression,Gene expression,0.00849691
+expr__eif4ebp1,EIF4EBP1 expression,Gene expression,0.00843201
+expr__ptprm,PTPRM expression,Gene expression,0.00841968
+mut__pik3ca_mut,PIK3CA mutation,Mutations,0.00823678
+clin_cat__primary_tumor_laterality_missing,Laterality = missing,Clinical,0.00817817
+clin_cat__type_of_breast_surgery_BREAST CONSERVING,Surgery = Breast conserving,Clinical,0.00786868
+expr__raf1,RAF1 expression,Gene expression,0.00764857
+expr__chek2,CHEK2 expression,Gene expression,0.00747563
+expr__bche,BCHE expression,Gene expression,0.00743841
+expr__tbx3,TBX3 expression,Gene expression,0.00726423
+expr__cyp3a43,CYP3A43 expression,Gene expression,0.00719131
+expr__ahnak2,AHNAK2 expression,Gene expression,0.00718964
+expr__notch2,NOTCH2 expression,Gene expression,0.00716894
+expr__ctnna3,CTNNA3 expression,Gene expression,0.00693531
+clin_num__tumor_stage,Tumor stage,Clinical,0.00693486
+expr__mapk7,MAPK7 expression,Gene expression,0.00689574
+expr__rfng,RFNG expression,Gene expression,0.00663694
+expr__fgfr1,FGFR1 expression,Gene expression,0.00658659
+expr__sik1,SIK1 expression,Gene expression,0.00643586
+expr__hif1a,HIF1A expression,Gene expression,0.00629654
+expr__mecom,MECOM expression,Gene expression,0.00624211
+expr__pms2,PMS2 expression,Gene expression,0.00618567
+expr__rbpj,RBPJ expression,Gene expression,0.00616186
+expr__mlst8,MLST8 expression,Gene expression,0.00615745
+expr__atr,ATR expression,Gene expression,0.00614254
+expr__ctcf,CTCF expression,Gene expression,0.00589832
+expr__erbb2,ERBB2 expression,Gene expression,0.00588402
+expr__nr3c1,NR3C1 expression,Gene expression,0.00587653
+expr__bcas3,BCAS3 expression,Gene expression,0.00582293
+expr__akt1s1,AKT1S1 expression,Gene expression,0.00581445
+expr__gata3,GATA3 expression,Gene expression,0.00577093
+mut__gata3_mut,GATA3 mutation,Mutations,0.00570489
+expr__fas,FAS expression,Gene expression,0.00546979
+expr__bmp3,BMP3 expression,Gene expression,0.00542229
+expr__casp10,CASP10 expression,Gene expression,0.00534405
+expr__hsd17b2,HSD17B2 expression,Gene expression,0.00525539
+expr__akt2,AKT2 expression,Gene expression,0.0051669
+expr__mmp25,MMP25 expression,Gene expression,0.00515848
+expr__map3k4,MAP3K4 expression,Gene expression,0.00500408
+expr__ar,AR expression,Gene expression,0.00485789
+expr__jak2,JAK2 expression,Gene expression,0.00479248
+expr__ccnb1,CCNB1 expression,Gene expression,0.00470793
+expr__nek1,NEK1 expression,Gene expression,0.00461459
+expr__maml1,MAML1 expression,Gene expression,0.00459591
+expr__shbg,SHBG expression,Gene expression,0.00453112
+expr__mmp14,MMP14 expression,Gene expression,0.00449273
+expr__ackr3,ACKR3 expression,Gene expression,0.00446919
+expr__cdk2,CDK2 expression,Gene expression,0.00438876
+expr__itch,ITCH expression,Gene expression,0.00432836
+expr__dll4,DLL4 expression,Gene expression,0.00428415
+expr__cdkn2c,CDKN2C expression,Gene expression,0.00420189
+expr__slc19a1,SLC19A1 expression,Gene expression,0.00402908
+expr__akt3,AKT3 expression,Gene expression,0.00399774
+expr__ttyh1,TTYH1 expression,Gene expression,0.00397989
+expr__prkcz,PRKCZ expression,Gene expression,0.00394877
+mut__tp53_mut,TP53 mutation,Mutations,0.00386912
+expr__prkacg,PRKACG expression,Gene expression,0.00383503
+expr__dnah11,DNAH11 expression,Gene expression,0.00379938
+expr__asxl1,ASXL1 expression,Gene expression,0.0037795
+expr__frmd3,FRMD3 expression,Gene expression,0.00375314
+expr__ptpn22,PTPN22 expression,Gene expression,0.00374781
+expr__mmp17,MMP17 expression,Gene expression,0.00374169
+expr__stat1,STAT1 expression,Gene expression,0.0037191
+expr__vegfa,VEGFA expression,Gene expression,0.0037138
+expr__rad50,RAD50 expression,Gene expression,0.00370297
+expr__ppp2r2a,PPP2R2A expression,Gene expression,0.00369204
+expr__hdac2,HDAC2 expression,Gene expression,0.00366069
+clin_cat__primary_tumor_laterality_Left,Laterality = Left,Clinical,0.00360671
+expr__rps6kb2,RPS6KB2 expression,Gene expression,0.00359778
+expr__usp9x,USP9X expression,Gene expression,0.00358544
+expr__foxo3,FOXO3 expression,Gene expression,0.00355596
+expr__notch3,NOTCH3 expression,Gene expression,0.00353744
+expr__map3k10,MAP3K10 expression,Gene expression,0.00352212
+expr__cdh1,CDH1 expression,Gene expression,0.00347994
+expr__pdgfrb,PDGFRB expression,Gene expression,0.00345792
+expr__e2f8,E2F8 expression,Gene expression,0.00340593
+expr__srd5a1,SRD5A1 expression,Gene expression,0.00339684
+expr__foxp1,FOXP1 expression,Gene expression,0.00335707
+expr__hsd17b1,HSD17B1 expression,Gene expression,0.00321928
+expr__klrg1,KLRG1 expression,Gene expression,0.00321297
+expr__tgfb2,TGFB2 expression,Gene expression,0.00319209
+expr__cdk4,CDK4 expression,Gene expression,0.00316624
+expr__adgra2,ADGRA2 expression,Gene expression,0.00313962
+expr__bmf,BMF expression,Gene expression,0.0031116
+expr__muc16,MUC16 expression,Gene expression,0.00309646
+subtype_cat__integrative_cluster_3,IntClust = 3,Molecular subtypes,0.00308885
+expr__akr1c1,AKR1C1 expression,Gene expression,0.00307467
+expr__setdb1,SETDB1 expression,Gene expression,0.00304915
+expr__hey2,HEY2 expression,Gene expression,0.00303808
+expr__epcam,EPCAM expression,Gene expression,0.0030286
+expr__stat3,STAT3 expression,Gene expression,0.00301778
+expr__map4,MAP4 expression,Gene expression,0.00299322
+expr__nt5e,NT5E expression,Gene expression,0.00292673
+expr__tbl1xr1,TBL1XR1 expression,Gene expression,0.00290278
+expr__ccna1,CCNA1 expression,Gene expression,0.00290106
+expr__mtor,MTOR expression,Gene expression,0.0028653
+expr__kdm6a,KDM6A expression,Gene expression,0.00284702
+expr__mapk14,MAPK14 expression,Gene expression,0.00283923
+expr__smad7,SMAD7 expression,Gene expression,0.00281785
+expr__pten,PTEN expression,Gene expression,0.00281296
+expr__prr16,PRR16 expression,Gene expression,0.00280271
+expr__akr1c4,AKR1C4 expression,Gene expression,0.0027873
+expr__fancd2,FANCD2 expression,Gene expression,0.00278487
+expr__casp8,CASP8 expression,Gene expression,0.00276994
+expr__folr3,FOLR3 expression,Gene expression,0.00275627
+expr__rpgr,RPGR expression,Gene expression,0.00275064
+expr__cacna2d3,CACNA2D3 expression,Gene expression,0.00268916
+expr__pdgfb,PDGFB expression,Gene expression,0.00268885
+expr__ctbp2,CTBP2 expression,Gene expression,0.00267088
+expr__brca2,BRCA2 expression,Gene expression,0.00264023
+expr__kdr,KDR expression,Gene expression,0.00262341
+expr__bmpr1a,BMPR1A expression,Gene expression,0.00261464
+expr__mapk6,MAPK6 expression,Gene expression,0.00261096
+expr__izumo1r,IZUMO1R expression,Gene expression,0.00261064
+expr__tubb4b,TUBB4B expression,Gene expression,0.00260685
+expr__bmp6,BMP6 expression,Gene expression,0.00258999
+expr__dll3,DLL3 expression,Gene expression,0.00253555
+expr__ncstn,NCSTN expression,Gene expression,0.00251898
+expr__plagl1,PLAGL1 expression,Gene expression,0.00248545
+expr__ep300,EP300 expression,Gene expression,0.00239228
+expr__e2f4,E2F4 expression,Gene expression,0.00238597
+subtype_cat__pam50_+_claudin-low_subtype_LumB,PAM50 = LumB,Molecular subtypes,0.0023827
+expr__arl11,ARL11 expression,Gene expression,0.00236144
+expr__nfkb2,NFKB2 expression,Gene expression,0.0023609
+expr__mmp19,MMP19 expression,Gene expression,0.00231689
+expr__dtx3,DTX3 expression,Gene expression,0.00229513
+expr__map2k2,MAP2K2 expression,Gene expression,0.00228172
+expr__kmt2c,KMT2C expression,Gene expression,0.00227892
+expr__mmp10,MMP10 expression,Gene expression,0.00227042
+clin_num__radio_therapy,Radiotherapy,Clinical,0.00222824
+expr__gldc,GLDC expression,Gene expression,0.00221258
+expr__e2f7,E2F7 expression,Gene expression,0.00218302
+expr__dnah5,DNAH5 expression,Gene expression,0.00217712
+expr__brca1,BRCA1 expression,Gene expression,0.00217626
+expr__msh2,MSH2 expression,Gene expression,0.00212069
+expr__kdm3a,KDM3A expression,Gene expression,0.00210807
+expr__nr1i2,NR1I2 expression,Gene expression,0.00209451
+expr__mapk3,MAPK3 expression,Gene expression,0.00209072
+expr__maml3,MAML3 expression,Gene expression,0.00203806
+expr__psen2,PSEN2 expression,Gene expression,0.00203123
+expr__gdf11,GDF11 expression,Gene expression,0.00203033
+expr__mmp26,MMP26 expression,Gene expression,0.00202188
+expr__hsd3b1,HSD3B1 expression,Gene expression,0.00201646
+expr__adam17,ADAM17 expression,Gene expression,0.00201516
+expr__egfr,EGFR expression,Gene expression,0.00199198
+expr__myc,MYC expression,Gene expression,0.00197691
+expr__hes2,HES2 expression,Gene expression,0.00197518
+clin_cat__her2_status_Negative,HER2 status = Negative,Clinical,0.0019706
+expr__ccnd1,CCND1 expression,Gene expression,0.00196762
+expr__prkg1,PRKG1 expression,Gene expression,0.00193378
+expr__ncor2,NCOR2 expression,Gene expression,0.0019239
+expr__hdac9,HDAC9 expression,Gene expression,0.00191502
+expr__fanca,FANCA expression,Gene expression,0.00189768
+expr__tgfb3,TGFB3 expression,Gene expression,0.00188418
+expr__cyp2c8,CYP2C8 expression,Gene expression,0.00187197
+expr__fgf2,FGF2 expression,Gene expression,0.00185297
+expr__taf1,TAF1 expression,Gene expression,0.00185063
+expr__hes4,HES4 expression,Gene expression,0.00184993
+expr__nfkb1,NFKB1 expression,Gene expression,0.0018345
+expr__hsd17b14,HSD17B14 expression,Gene expression,0.00182562
+expr__itgb3,ITGB3 expression,Gene expression,0.00182162
+expr__rptor,RPTOR expression,Gene expression,0.00181234
+expr__runx1,RUNX1 expression,Gene expression,0.00180695
+expr__bmpr1b,BMPR1B expression,Gene expression,0.00178725
+expr__bcl2l1,BCL2L1 expression,Gene expression,0.00176385
+expr__mapk4,MAPK4 expression,Gene expression,0.00174619
+expr__map3k5,MAP3K5 expression,Gene expression,0.00174122
+expr__ccnd3,CCND3 expression,Gene expression,0.00173082
+expr__acvr1,ACVR1 expression,Gene expression,0.0017143
+expr__inhbc,INHBC expression,Gene expression,0.00171347
+expr__tgfbr3,TGFBR3 expression,Gene expression,0.00171156
+expr__cxcr1,CXCR1 expression,Gene expression,0.00169568
+expr__tulp4,TULP4 expression,Gene expression,0.00168026
+expr__arid1a,ARID1A expression,Gene expression,0.00166807
+expr__jag1,JAG1 expression,Gene expression,0.00165588
+expr__msh6,MSH6 expression,Gene expression,0.00165396
+expr__sox9,SOX9 expression,Gene expression,0.00164348
+expr__eif5a2,EIF5A2 expression,Gene expression,0.00163257
+expr__utrn,UTRN expression,Gene expression,0.0016293
+expr__cbfb,CBFB expression,Gene expression,0.00161436
+expr__gpr32,GPR32 expression,Gene expression,0.00160405
+expr__cxcr2,CXCR2 expression,Gene expression,0.0015938
+expr__hsd17b12,HSD17B12 expression,Gene expression,0.00158635
+expr__igf1,IGF1 expression,Gene expression,0.00155341
+expr__map2k1,MAP2K1 expression,Gene expression,0.0015452
+expr__nras,NRAS expression,Gene expression,0.00153193
+expr__heyl,HEYL expression,Gene expression,0.00151518
+expr__col6a3,COL6A3 expression,Gene expression,0.00151079
+expr__ctnna1,CTNNA1 expression,Gene expression,0.00147947
+expr__gdf2,GDF2 expression,Gene expression,0.00147861
+expr__e2f5,E2F5 expression,Gene expression,0.00145163
+expr__dtx4,DTX4 expression,Gene expression,0.00144383
+expr__smad5,SMAD5 expression,Gene expression,0.00142527
+expr__mmp3,MMP3 expression,Gene expression,0.00141613
+expr__mapk9,MAPK9 expression,Gene expression,0.00139656
+expr__tp53bp1,TP53BP1 expression,Gene expression,0.00137502
+expr__ptprd,PTPRD expression,Gene expression,0.00137146
+expr__tg,TG expression,Gene expression,0.00136051
+expr__smad3,SMAD3 expression,Gene expression,0.00133134
+expr__cdkn2b,CDKN2B expression,Gene expression,0.00127235
+expr__hsd17b10,HSD17B10 expression,Gene expression,0.00125347
+expr__chek1,CHEK1 expression,Gene expression,0.00124463
+expr__myo3a,MYO3A expression,Gene expression,0.00123107
+expr__men1,MEN1 expression,Gene expression,0.00123032
+expr__pde4dip,PDE4DIP expression,Gene expression,0.00117397
+expr__notch1,NOTCH1 expression,Gene expression,0.00115904
+expr__e2f1,E2F1 expression,Gene expression,0.00115274
+expr__rps6,RPS6 expression,Gene expression,0.0011452
+expr__clrn2,CLRN2 expression,Gene expression,0.00113756
+expr__sgcd,SGCD expression,Gene expression,0.00113212
+expr__ctbp1,CTBP1 expression,Gene expression,0.00112094
+expr__hes5,HES5 expression,Gene expression,0.00110023
+expr__mmp13,MMP13 expression,Gene expression,0.00109512
+expr__myo1a,MYO1A expression,Gene expression,0.00108355
+expr__agmo,AGMO expression,Gene expression,0.00107461
+expr__psenen,PSENEN expression,Gene expression,0.00104905
+expr__mmp2,MMP2 expression,Gene expression,0.00103199
+expr__ppp2cb,PPP2CB expression,Gene expression,0.0010166
+expr__rheb,RHEB expression,Gene expression,0.00100213
+expr__tsc2,TSC2 expression,Gene expression,0.000992312
+expr__kdm5a,KDM5A expression,Gene expression,0.000971019
+expr__mmp28,MMP28 expression,Gene expression,0.000968015
+expr__wwox,WWOX expression,Gene expression,0.000967764
+expr__bmpr2,BMPR2 expression,Gene expression,0.000962297
+expr__bbc3,BBC3 expression,Gene expression,0.00095714
+expr__clk3,CLK3 expression,Gene expression,0.000944452
+expr__numbl,NUMBL expression,Gene expression,0.000943335
+expr__atm,ATM expression,Gene expression,0.000942301
+expr__map3k13,MAP3K13 expression,Gene expression,0.000934985
+expr__apc,APC expression,Gene expression,0.000926902
+expr__mapk8,MAPK8 expression,Gene expression,0.000914666
+expr__rbpjl,RBPJL expression,Gene expression,0.000908514
+expr__snw1,SNW1 expression,Gene expression,0.000903407
+expr__syne1,SYNE1 expression,Gene expression,0.000895384
+expr__large1,LARGE1 expression,Gene expression,0.000894554
+expr__star,STAR expression,Gene expression,0.0008867
+expr__kit,KIT expression,Gene expression,0.00087547
+expr__spen,SPEN expression,Gene expression,0.000832799
+expr__e2f6,E2F6 expression,Gene expression,0.000800617
+expr__mmp23b,MMP23B expression,Gene expression,0.000781763
+expr__rad51d,RAD51D expression,Gene expression,0.000775204
+expr__ubr5,UBR5 expression,Gene expression,0.000769749
+expr__met,MET expression,Gene expression,0.000765743
+expr__rassf1,RASSF1 expression,Gene expression,0.000760128
+expr__lama2,LAMA2 expression,Gene expression,0.00075336
+expr__herc2,HERC2 expression,Gene expression,0.000750832
+expr__hes7,HES7 expression,Gene expression,0.000749538
+expr__palb2,PALB2 expression,Gene expression,0.000724857
+expr__csf1r,CSF1R expression,Gene expression,0.000720329
+expr__kras,KRAS expression,Gene expression,0.000696737
+expr__hsd17b3,HSD17B3 expression,Gene expression,0.000689164
+expr__ldlrap1,LDLRAP1 expression,Gene expression,0.000641991
+expr__lifr,LIFR expression,Gene expression,0.000630387
+expr__col12a1,COL12A1 expression,Gene expression,0.000608033
+expr__spry2,SPRY2 expression,Gene expression,0.000402741
+expr__pik3r2,PIK3R2 expression,Gene expression,0.000307132
+expr__rps6ka2,RPS6KA2 expression,Gene expression,0.000187103
+expr__hsd17b4,HSD17B4 expression,Gene expression,0
+expr__cdk8,CDK8 expression,Gene expression,0
+expr__cyb5a,CYB5A expression,Gene expression,0
+expr__hsd17b13,HSD17B13 expression,Gene expression,0
+expr__hsd17b11,HSD17B11 expression,Gene expression,0
+expr__hes6,HES6 expression,Gene expression,0
+expr__ddc,DDC expression,Gene expression,0
+expr__cyp11a1,CYP11A1 expression,Gene expression,0
+expr__cyp11b2,CYP11B2 expression,Gene expression,0
+expr__cyp19a1,CYP19A1 expression,Gene expression,0
+expr__cyp21a2,CYP21A2 expression,Gene expression,0
+expr__cyp3a7,CYP3A7 expression,Gene expression,0
+expr__cyp3a5,CYP3A5 expression,Gene expression,0
+expr__hsd17b6,HSD17B6 expression,Gene expression,0
+expr__akr1c3,AKR1C3 expression,Gene expression,0
+subtype_cat__pam50_+_claudin-low_subtype_Normal,PAM50 = Normal,Molecular subtypes,0
+subtype_cat__pam50_+_claudin-low_subtype_Her2,PAM50 = Her2,Molecular subtypes,0
+subtype_cat__pam50_+_claudin-low_subtype_Basal,PAM50 = Basal,Molecular subtypes,0
+clin_cat__primary_tumor_laterality_Right,Laterality = Right,Clinical,0
+clin_cat__inferred_menopausal_state_Pre,Menopausal state = Pre,Clinical,0
+clin_cat__inferred_menopausal_state_Post,Menopausal state = Post,Clinical,0
+clin_cat__tumor_other_histologic_subtype_infrequent_sklearn,Histologic subtype = other (rare),Clinical,0
+clin_cat__tumor_other_histologic_subtype_missing,Histologic subtype = missing,Clinical,0
+clin_cat__tumor_other_histologic_subtype_Tubular/ cribriform,Histologic subtype = Tubular/ cribriform,Clinical,0
+clin_cat__tumor_other_histologic_subtype_Ductal/NST,Histologic subtype = Ductal/NST,Clinical,0
+clin_cat__tumor_other_histologic_subtype_Mucinous,Histologic subtype = Mucinous,Clinical,0
+clin_cat__tumor_other_histologic_subtype_Mixed,Histologic subtype = Mixed,Clinical,0
+clin_cat__tumor_other_histologic_subtype_Medullary,Histologic subtype = Medullary,Clinical,0
+clin_cat__tumor_other_histologic_subtype_Lobular,Histologic subtype = Lobular,Clinical,0
+expr__akr1c2,AKR1C2 expression,Gene expression,0
+clin_cat__her2_status_Positive,HER2 status = Positive,Clinical,0
+clin_cat__pr_status_Positive,PR status = Positive,Clinical,0
+expr__nrip1,NRIP1 expression,Gene expression,0
+expr__ncoa2,NCOA2 expression,Gene expression,0
+expr__hsd3b2,HSD3B2 expression,Gene expression,0
+clin_cat__tumor_other_histologic_subtype_Other,Histologic subtype = Other,Clinical,0
+expr__palld,PALLD expression,Gene expression,0
+expr__or6a2,OR6A2 expression,Gene expression,0
+expr__nrg3,NRG3 expression,Gene expression,0
+expr__npnt,NPNT expression,Gene expression,0
+expr__nf2,NF2 expression,Gene expression,0
+expr__rad51c,RAD51C expression,Gene expression,0
+expr__stk11,STK11 expression,Gene expression,0
+expr__nf1,NF1 expression,Gene expression,0
+expr__nbn,NBN expression,Gene expression,0
+subtype_cat__her2_status_measured_by_snp6_infrequent_sklearn,HER2 copy number (SNP6) = other (rare),Molecular subtypes,0
+expr__stmn2,STMN2 expression,Gene expression,0
+subtype_cat__her2_status_measured_by_snp6_LOSS,HER2 copy number (SNP6) = Loss,Molecular subtypes,0
+subtype_cat__her2_status_measured_by_snp6_GAIN,HER2 copy number (SNP6) = Gain,Molecular subtypes,0
+subtype_cat__3-gene_classifier_subtype_missing,3-gene classifier = missing,Molecular subtypes,0
+subtype_cat__3-gene_classifier_subtype_HER2+,3-gene classifier = HER2+,Molecular subtypes,0
+subtype_cat__3-gene_classifier_subtype_ER-/HER2-,3-gene classifier = ER-/HER2-,Molecular subtypes,0
+subtype_cat__3-gene_classifier_subtype_ER+/HER2- Low Prolif,3-gene classifier = ER+/HER2- Low Prolif,Molecular subtypes,0
+subtype_cat__3-gene_classifier_subtype_ER+/HER2- High Prolif,3-gene classifier = ER+/HER2- High Prolif,Molecular subtypes,0
+subtype_cat__integrative_cluster_9,IntClust = 9,Molecular subtypes,0
+subtype_cat__integrative_cluster_8,IntClust = 8,Molecular subtypes,0
+subtype_cat__integrative_cluster_7,IntClust = 7,Molecular subtypes,0
+expr__mtap,MTAP expression,Gene expression,0
+subtype_cat__her2_status_measured_by_snp6_NEUTRAL,HER2 copy number (SNP6) = Neutral,Molecular subtypes,0
+expr__zfp36l1,ZFP36L1 expression,Gene expression,0
+expr__ush2a,USH2A expression,Gene expression,0
+expr__thsd7a,THSD7A expression,Gene expression,0
+expr__thada,THADA expression,Gene expression,0
+expr__taf4b,TAF4B expression,Gene expression,0
+subtype_cat__pam50_+_claudin-low_subtype_claudin-low,PAM50 = claudin-low,Molecular subtypes,0
+expr__stab2,STAB2 expression,Gene expression,0
+expr__spaca1,SPACA1 expression,Gene expression,0
+expr__smarcc2,SMARCC2 expression,Gene expression,0
+expr__smarcc1,SMARCC1 expression,Gene expression,0
+expr__pbrm1,PBRM1 expression,Gene expression,0
+expr__sik2,SIK2 expression,Gene expression,0
+expr__siah1,SIAH1 expression,Gene expression,0
+expr__shank2,SHANK2 expression,Gene expression,0
+expr__sf3b1,SF3B1 expression,Gene expression,0
+expr__setd2,SETD2 expression,Gene expression,0
+expr__setd1a,SETD1A expression,Gene expression,0
+expr__sbno1,SBNO1 expression,Gene expression,0
+expr__ryr2,RYR2 expression,Gene expression,0
+expr__rasgef1b,RASGEF1B expression,Gene expression,0
+expr__prkcq,PRKCQ expression,Gene expression,0
+expr__prkce,PRKCE expression,Gene expression,0
+expr__smarcb1,SMARCB1 expression,Gene expression,0
+clin_cat__cellularity_Low,Cellularity = Low,Clinical,0
+clin_cat__cellularity_High,Cellularity = High,Clinical,0
+clin_cat__cancer_type_detailed_infrequent_sklearn,Histology = other (rare),Clinical,0
+clin_cat__cancer_type_detailed_missing,Histology = missing,Clinical,0
+clin_cat__cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,Histology = Breast Mixed Ductal and Lobular Carcinoma,Clinical,0
+clin_cat__cancer_type_detailed_Breast Invasive Mixed Mucinous Carcinoma,Histology = Breast Invasive Mixed Mucinous Carcinoma,Clinical,0
+clin_cat__cellularity_missing,Cellularity = missing,Clinical,0
+mut_num__mutation_count,Mutation count,Mutations,0
+mut__brip1_mut,BRIP1 mutation,Mutations,0
+mut__usp9x_mut,USP9X mutation,Mutations,0
+mut__ptprd_mut,PTPRD mutation,Mutations,0
+subtype_cat__integrative_cluster_10,IntClust = 10,Molecular subtypes,0
+mut__shank2_mut,SHANK2 mutation,Mutations,0
+mut__sf3b1_mut,SF3B1 mutation,Mutations,0
+mut__erbb2_mut,ERBB2 mutation,Mutations,0
+mut__arid1b_mut,ARID1B mutation,Mutations,0
+mut__lamb3_mut,LAMB3 mutation,Mutations,0
+mut__ros1_mut,ROS1 mutation,Mutations,0
+mut__map2k4_mut,MAP2K4 mutation,Mutations,0
+mut__nf1_mut,NF1 mutation,Mutations,0
+mut__runx1_mut,RUNX1 mutation,Mutations,0
+mut__myh9_mut,MYH9 mutation,Mutations,0
+mut__stab2_mut,STAB2 mutation,Mutations,0
+mut__ncor1_mut,NCOR1 mutation,Mutations,0
+mut__ep300_mut,EP300 mutation,Mutations,0
+mut__ubr5_mut,UBR5 mutation,Mutations,0
+mut__adgra2_mut,ADGRA2 mutation,Mutations,0
+mut__fanca_mut,FANCA mutation,Mutations,0
+mut__alk_mut,ALK mutation,Mutations,0
+mut__myo1a_mut,MYO1A mutation,Mutations,0
+mut__rb1_mut,RB1 mutation,Mutations,0
+mut__erbb3_mut,ERBB3 mutation,Mutations,0
+mut__afdn_mut,AFDN mutation,Mutations,0
+mut__thsd7a_mut,THSD7A mutation,Mutations,0
+mut__setd1a_mut,SETD1A mutation,Mutations,0
+mut__setd2_mut,SETD2 mutation,Mutations,0
+clin_cat__cellularity_Moderate,Cellularity = Moderate,Clinical,0
+mut__aff2_mut,AFF2 mutation,Mutations,0
+mut__arid2_mut,ARID2 mutation,Mutations,0
+mut__cacna2d3_mut,CACNA2D3 mutation,Mutations,0
+mut__brca2_mut,BRCA2 mutation,Mutations,0
+mut__gldc_mut,GLDC mutation,Mutations,0
+clin_cat__pr_status_Negative,PR status = Negative,Clinical,0
+clin_cat__er_status_Positive,ER status = Positive,Clinical,0
+clin_cat__er_status_Negative,ER status = Negative,Clinical,0
+clin_cat__er_status_measured_by_ihc_missing,ER (IHC) = missing,Clinical,0
+clin_cat__er_status_measured_by_ihc_Positve,ER (IHC) = Positve,Clinical,0
+clin_cat__er_status_measured_by_ihc_Negative,ER (IHC) = Negative,Clinical,0
+mut__birc6_mut,BIRC6 mutation,Mutations,0
+mut__lifr_mut,LIFR mutation,Mutations,0
+mut__nek1_mut,NEK1 mutation,Mutations,0
+mut__npnt_mut,NPNT mutation,Mutations,0
+mut__erbb4_mut,ERBB4 mutation,Mutations,0
+mut__smarcc2_mut,SMARCC2 mutation,Mutations,0
+mut__map3k10_mut,MAP3K10 mutation,Mutations,0
+mut__egfr_mut,EGFR mutation,Mutations,0
+mut__arid5b_mut,ARID5B mutation,Mutations,0
+mut__fam20c_mut,FAM20C mutation,Mutations,0
+mut__setdb1_mut,SETDB1 mutation,Mutations,0
+mut__jak1_mut,JAK1 mutation,Mutations,0
+mut__chd1_mut,CHD1 mutation,Mutations,0
+mut__thada_mut,THADA mutation,Mutations,0
+mut__l1cam_mut,L1CAM mutation,Mutations,0
+mut__bap1_mut,BAP1 mutation,Mutations,0
+mut__ncoa3_mut,NCOA3 mutation,Mutations,0
+mut__kdm3a_mut,KDM3A mutation,Mutations,0
+mut__sbno1_mut,SBNO1 mutation,Mutations,0
+subtype_cat__integrative_cluster_6,IntClust = 6,Molecular subtypes,0
+subtype_cat__integrative_cluster_4ER-,IntClust = 4ER-,Molecular subtypes,0
+subtype_cat__integrative_cluster_4ER+,IntClust = 4ER+,Molecular subtypes,0
+subtype_cat__integrative_cluster_2,IntClust = 2,Molecular subtypes,0
+expr__braf,BRAF expression,Gene expression,0
+subtype_cat__integrative_cluster_1,IntClust = 1,Molecular subtypes,0
+subtype_cat__pam50_+_claudin-low_subtype_infrequent_sklearn,PAM50 = other (rare),Molecular subtypes,0
+mut__pbrm1_mut,PBRM1 mutation,Mutations,0
+mut__atr_mut,ATR mutation,Mutations,0
+mut__akt1_mut,AKT1 mutation,Mutations,0
+mut__pten_mut,PTEN mutation,Mutations,0
+mut__col22a1_mut,COL22A1 mutation,Mutations,0
+mut__col12a1_mut,COL12A1 mutation,Mutations,0
+mut__pik3r1_mut,PIK3R1 mutation,Mutations,0
+mut__cbfb_mut,CBFB mutation,Mutations,0
+mut__notch1_mut,NOTCH1 mutation,Mutations,0
+mut__lama2_mut,LAMA2 mutation,Mutations,0
+mut__arid1a_mut,ARID1A mutation,Mutations,0
+mut__col6a3_mut,COL6A3 mutation,Mutations,0
+mut__agmo_mut,AGMO mutation,Mutations,0
+mut__utrn_mut,UTRN mutation,Mutations,0
+expr__pik3r3,PIK3R3 expression,Gene expression,0
+expr__nrarp,NRARP expression,Gene expression,0
+expr__maml2,MAML2 expression,Gene expression,0
+mut__dcaf4l2_mut,DCAF4L2 mutation,Mutations,0
+mut__palld_mut,PALLD mutation,Mutations,0
+mut__smarcc1_mut,SMARCC1 mutation,Mutations,0
+mut__prkcq_mut,PRKCQ mutation,Mutations,0
+mut__casp8_mut,CASP8 mutation,Mutations,0
+mut__sik1_mut,SIK1 mutation,Mutations,0
+mut__smad4_mut,SMAD4 mutation,Mutations,0
+mut__zfp36l1_mut,ZFP36L1 mutation,Mutations,0
+mut__tbx3_mut,TBX3 mutation,Mutations,0
+expr__mmp24,MMP24 expression,Gene expression,0
+expr__mmp21,MMP21 expression,Gene expression,0
+expr__mmp16,MMP16 expression,Gene expression,0
+expr__mmp12,MMP12 expression,Gene expression,0
+expr__mdc1,MDC1 expression,Gene expression,0
+expr__mapk12,MAPK12 expression,Gene expression,0
+expr__mapk1,MAPK1 expression,Gene expression,0
+expr__map3k3,MAP3K3 expression,Gene expression,0
+mut__ptpn22_mut,PTPN22 mutation,Mutations,0
+mut__sik2_mut,SIK2 mutation,Mutations,0
+expr__acvr2b,ACVR2B expression,Gene expression,0
+mut__men1_mut,MEN1 mutation,Mutations,0
+mut__gps2_mut,GPS2 mutation,Mutations,0
+mut__cdkn1b_mut,CDKN1B mutation,Mutations,0
+mut__bcas3_mut,BCAS3 mutation,Mutations,0
+mut__usp28_mut,USP28 mutation,Mutations,0
+mut__foxo3_mut,FOXO3 mutation,Mutations,0
+mut__ptprm_mut,PTPRM mutation,Mutations,0
+mut__brca1_mut,BRCA1 mutation,Mutations,0
+mut__ctnna3_mut,CTNNA3 mutation,Mutations,0
+mut__kdm6a_mut,KDM6A mutation,Mutations,0
+mut__taf1_mut,TAF1 mutation,Mutations,0
+mut__stk11_mut,STK11 mutation,Mutations,0
+expr__dab2,DAB2 expression,Gene expression,0
+expr__lfng,LFNG expression,Gene expression,0
+expr__rictor,RICTOR expression,Gene expression,0
+expr__stat2,STAT2 expression,Gene expression,0
+expr__jak1,JAK1 expression,Gene expression,0
+expr__src,SRC expression,Gene expression,0
+expr__cdkn1b,CDKN1B expression,Gene expression,0
+expr__cdkn1a,CDKN1A expression,Gene expression,0
+expr__cdkn2a,CDKN2A expression,Gene expression,0
+expr__cdk6,CDK6 expression,Gene expression,0
+expr__cdc25a,CDC25A expression,Gene expression,0
+expr__mmp27,MMP27 expression,Gene expression,0
+expr__rbl1,RBL1 expression,Gene expression,0
+expr__rb1,RB1 expression,Gene expression,0
+expr__rab25,RAB25 expression,Gene expression,0
+expr__pik3r1,PIK3R1 expression,Gene expression,0
+expr__pik3ca,PIK3CA expression,Gene expression,0
+expr__peg3,PEG3 expression,Gene expression,0
+expr__pdpk1,PDPK1 expression,Gene expression,0
+expr__pdgfra,PDGFRA expression,Gene expression,0
+expr__pdgfa,PDGFA expression,Gene expression,0
+expr__opcml,OPCML expression,Gene expression,0
+expr__mmp7,MMP7 expression,Gene expression,0
+expr__rbl2,RBL2 expression,Gene expression,0
+expr__ugt2b15,UGT2B15 expression,Gene expression,0
+expr__tnk2,TNK2 expression,Gene expression,0
+expr__st7,ST7 expression,Gene expression,0
+expr__srd5a3,SRD5A3 expression,Gene expression,0
+mut_num__missingindicator_mutation_count,Mutation count missing,Mutations,0
+expr__serpini1,SERPINI1 expression,Gene expression,0
+expr__sdc4,SDC4 expression,Gene expression,0
+expr__rdh5,RDH5 expression,Gene expression,0
+expr__ran,RAN expression,Gene expression,0
+expr__prkd1,PRKD1 expression,Gene expression,0
+mut__fancd2_mut,FANCD2 mutation,Mutations,0
+expr__srd5a2,SRD5A2 expression,Gene expression,0
+clin_cat__cancer_type_detailed_Breast Invasive Lobular Carcinoma,Histology = Breast Invasive Lobular Carcinoma,Clinical,0
+clin_cat__cancer_type_detailed_Breast Invasive Ductal Carcinoma,Histology = Breast Invasive Ductal Carcinoma,Clinical,0
+clin_cat__cancer_type_detailed_Breast,Histology = Breast,Clinical,0
+clin_cat__type_of_breast_surgery_missing,Surgery = missing,Clinical,0
+clin_cat__type_of_breast_surgery_MASTECTOMY,Surgery = Mastectomy,Clinical,0
+clin_num__missingindicator_neoplasm_histologic_grade,Histologic grade missing,Clinical,0
+clin_num__missingindicator_tumor_stage,Tumor stage missing,Clinical,0
+clin_num__missingindicator_tumor_size,Tumor size missing,Clinical,0
+clin_num__hormone_therapy,Hormone therapy,Clinical,0
+clin_num__chemotherapy,Chemotherapy,Clinical,0
+expr__prkci,PRKCI expression,Gene expression,0
+mut__asxl1_mut,ASXL1 mutation,Mutations,0
+mut__ctcf_mut,CTCF mutation,Mutations,0
+mut__apc_mut,APC mutation,Mutations,0
+mut__asxl2_mut,ASXL2 mutation,Mutations,0
+mut__myo3a_mut,MYO3A mutation,Mutations,0
+mut__ncor2_mut,NCOR2 mutation,Mutations,0
+mut__tg_mut,TG mutation,Mutations,0
+mut__akap9_mut,AKAP9 mutation,Mutations,0
+mut__pde4dip_mut,PDE4DIP mutation,Mutations,0
+mut__herc2_mut,HERC2 mutation,Mutations,0
+mut__dnah5_mut,DNAH5 mutation,Mutations,0
+expr__ugt2b7,UGT2B7 expression,Gene expression,0
+mut__ush2a_mut,USH2A mutation,Mutations,0
+mut__kmt2d_mut,KMT2D mutation,Mutations,0
+mut__dnah2_mut,DNAH2 mutation,Mutations,0
+mut__cdh1_mut,CDH1 mutation,Mutations,0
+mut__dnah11_mut,DNAH11 mutation,Mutations,0
+mut__ahnak_mut,AHNAK mutation,Mutations,0
+mut__map3k1_mut,MAP3K1 mutation,Mutations,0
+mut__syne1_mut,SYNE1 mutation,Mutations,0
+mut__kmt2c_mut,KMT2C mutation,Mutations,0
+mut__ahnak2_mut,AHNAK2 mutation,Mutations,0
+mut__muc16_mut,MUC16 mutation,Mutations,0
+mut__ryr2_mut,RYR2 mutation,Mutations,0
+expr__birc6,BIRC6 expression,Gene expression,0
+expr__bap1,BAP1 expression,Gene expression,0
+expr__jag2,JAG2 expression,Gene expression,0
+expr__hes1,HES1 expression,Gene expression,0
+expr__hdac1,HDAC1 expression,Gene expression,0
+expr__fbxw7,FBXW7 expression,Gene expression,0
+expr__dtx2,DTX2 expression,Gene expression,0
+expr__dtx1,DTX1 expression,Gene expression,0
+expr__dll1,DLL1 expression,Gene expression,0
+expr__arrdc1,ARRDC1 expression,Gene expression,0
+expr__eif4e,EIF4E expression,Gene expression,0
+expr__adam10,ADAM10 expression,Gene expression,0
+expr__mdm2,MDM2 expression,Gene expression,0
+expr__csf1,CSF1 expression,Gene expression,0
+expr__casp9,CASP9 expression,Gene expression,0
+expr__casp7,CASP7 expression,Gene expression,0
+expr__casp6,CASP6 expression,Gene expression,0
+expr__casp3,CASP3 expression,Gene expression,0
+expr__asxl2,ASXL2 expression,Gene expression,0
+expr__arid5b,ARID5B expression,Gene expression,0
+expr__arid2,ARID2 expression,Gene expression,0
+expr__alk,ALK expression,Gene expression,0
+expr__aph1a,APH1A expression,Gene expression,0
+expr__bmp7,BMP7 expression,Gene expression,0
+expr__bmp5,BMP5 expression,Gene expression,0
+expr__bmp4,BMP4 expression,Gene expression,0
+expr__bmp2,BMP2 expression,Gene expression,0
+expr__bmp15,BMP15 expression,Gene expression,0
+expr__bmp10,BMP10 expression,Gene expression,0
+expr__bad,BAD expression,Gene expression,0
+expr__acvrl1,ACVRL1 expression,Gene expression,0
+clin_num__neoplasm_histologic_grade,Histologic grade,Clinical,0
+expr__acvr2a,ACVR2A expression,Gene expression,0
+expr__acvr1c,ACVR1C expression,Gene expression,0
+expr__chd1,CHD1 expression,Gene expression,0
+expr__psen1,PSEN1 expression,Gene expression,0
+expr__numb,NUMB expression,Gene expression,0
+expr__magea8,MAGEA8 expression,Gene expression,0
+expr__lipi,LIPI expression,Gene expression,0
+expr__lamb3,LAMB3 expression,Gene expression,0
+expr__l1cam,L1CAM expression,Gene expression,0
+expr__hist1h2bc,HIST1H2BC expression,Gene expression,0
+expr__gh1,GH1 expression,Gene expression,0
+expr__fam20c,FAM20C expression,Gene expression,0
+expr__dtwd2,DTWD2 expression,Gene expression,0
+expr__dnah2,DNAH2 expression,Gene expression,0
+expr__hey1,HEY1 expression,Gene expression,0
+expr__tert,TERT expression,Gene expression,0
+expr__terc,TERC expression,Gene expression,0
+expr__sptbn1,SPTBN1 expression,Gene expression,0
+expr__smad9,SMAD9 expression,Gene expression,0
+expr__smad4,SMAD4 expression,Gene expression,0
+expr__smad2,SMAD2 expression,Gene expression,0
+expr__smad1,SMAD1 expression,Gene expression,0
+expr__rps6kb1,RPS6KB1 expression,Gene expression,0
+expr__rps6ka1,RPS6KA1 expression,Gene expression,0
+expr__map3k1,MAP3K1 expression,Gene expression,0
+expr__map2k5,MAP2K5 expression,Gene expression,0
+expr__akap9,AKAP9 expression,Gene expression,0
+expr__itgav,ITGAV expression,Gene expression,0
+expr__inhba,INHBA expression,Gene expression,0
+expr__inha,INHA expression,Gene expression,0
+expr__hras,HRAS expression,Gene expression,0
+expr__hla-g,HLA-G expression,Gene expression,0
+expr__foxo1,FOXO1 expression,Gene expression,0
+expr__folr2,FOLR2 expression,Gene expression,0
+expr__folr1,FOLR1 expression,Gene expression,0
+expr__fgf1,FGF1 expression,Gene expression,0
+expr__erbb4,ERBB4 expression,Gene expression,0
+expr__erbb3,ERBB3 expression,Gene expression,0
+expr__map2k3,MAP2K3 expression,Gene expression,0
+expr__ahnak,AHNAK expression,Gene expression,0
+expr__agtr2,AGTR2 expression,Gene expression,0
+expr__aff2,AFF2 expression,Gene expression,0
+expr__afdn,AFDN expression,Gene expression,0
+expr__twist1,TWIST1 expression,Gene expression,0
+expr__tubb1,TUBB1 expression,Gene expression,0
+expr__slco1b3,SLCO1B3 expression,Gene expression,0
+expr__map2,MAP2 expression,Gene expression,0
+expr__cyp3a4,CYP3A4 expression,Gene expression,0
+expr__abcc10,ABCC10 expression,Gene expression,0
+expr__abcc1,ABCC1 expression,Gene expression,0
+expr__tgfb1,TGFB1 expression,Gene expression,0
+expr__abcb1,ABCB1 expression,Gene expression,0
+expr__ros1,ROS1 expression,Gene expression,0
+expr__myh9,MYH9 expression,Gene expression,0
+expr__kmt2d,KMT2D expression,Gene expression,0
+expr__arid1b,ARID1B expression,Gene expression,0
+expr__zfyve9,ZFYVE9 expression,Gene expression,0
+expr__wfdc2,WFDC2 expression,Gene expression,0
+expr__vegfb,VEGFB expression,Gene expression,0
+expr__tsc1,TSC1 expression,Gene expression,0
+expr__tgfbr2,TGFBR2 expression,Gene expression,0
+expr__tgfbr1,TGFBR1 expression,Gene expression,0
+expr__abcb11,ABCB11 expression,Gene expression,0
